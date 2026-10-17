@@ -46,9 +46,6 @@ Sentinel-2 imagery was used to derive spectral indicators of water properties. T
 1. **Level-2A branch:** Sentinel-2 bottom-of-atmosphere (BOA) imagery, including monthly raster products prepared using Google Earth Engine (GEE).
 2. **Level-1C branch:** Sentinel-2 Level-1C imagery processed with ACOLITE using Dark Spectrum Fitting (DSF), followed by band calculations in ESA SNAP.
 
-These are distinct processing branches. They should not be described as one identical correction chain. For each result, record the product level, acquisition or compositing period, atmospheric-correction approach, software version and export settings actually used.
-
-Monthly median GeoTIFF products are documented for March 2025–May 2026, and additional older raster files have been described for January 2016–January 2023. These date ranges do not by themselves establish that every month has valid coverage or that all products were used in the field comparison. List the actual files and dates before making a complete temporal-coverage claim.
 
 ## 4. Spectral indices
 
@@ -61,7 +58,7 @@ The project examines the following indices or index families:
 - **NDWI:** Normalized Difference Water Index.
 - **MNDWI:** Modified Normalized Difference Water Index.
 
-NDWI/MNDWI can be used as part of water masking, but the chosen mask, Index values are spectral proxies and can be affected by suspended sediments, phytoplankton, colored dissolved matter, bottom reflectance in shallow water, atmospheric-correction residuals and adjacency effects.
+NDWI/MNDWI can be used as part of water masking, Index values are spectral proxies and can be affected by suspended sediments, phytoplankton, colored dissolved matter, bottom reflectance in shallow water, atmospheric-correction residuals and adjacency effects.
 
 
 ## 5. Linking field observations and satellite pixels
@@ -78,9 +75,6 @@ The project has considered statistical comparison of field measurements and sate
 - mean absolute error (`MAE`);
 - bias.
 
-These metrics are meaningful only when the compared quantities, units, sample count, pairing rules and model form are clearly specified. In particular, metrics from a fitted relationship should not be presented as evidence of concentration-retrieval accuracy unless the model target, validation design and independent validation data support that interpretation.
-
-Do not add numerical values to this document until they have been checked against the actual analysis outputs. Do not imply that linear, exponential, polynomial or machine-learning models were all retained or validated merely because they were considered during exploration.
 
 ## 7. Interpretation
 
@@ -101,5 +95,3 @@ Before claiming full reproducibility, record or publish, where appropriate:
 - treatment of missing values and outliers;
 - analysis scripts and software versions;
 - sample counts and the exact outputs used to calculate each statistic.
-
-Raw field data should be shared only if the author has the right to distribute it and has checked that publication is appropriate.
