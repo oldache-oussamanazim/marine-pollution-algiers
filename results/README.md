@@ -11,7 +11,7 @@ Eight stations (`BTC0`–`BTC7`) near the Borj El Kiffan desalination plant, sam
 
 | Variable | March 2025 | April 2025 | May 2025 |
 |---|---|---|---|
-| Turbidity, mean (range), FNU | not reproduced here (max 11.04 at BTC4) | 2.65 (1.09–3.77) | 3.69 (2.80–4.88) |
+| Turbidity, mean (range), FNU | 5,75 (2,15 – 11,04) | 2.65 (1.09–3.77) | 3.69 (2.80–4.88) |
 | Chlorophyll-a, mean (range), µg/L | 2.09 (1.45–3.81) | 3.28 (2.62–4.28) | 1.92 (1.49–2.51) |
 | NO3-, mean (range), µmol/L | 0.46 (0.27–0.72) | 0.73 (0.55–0.90) | 0.53 (0.18–0.84) |
 
