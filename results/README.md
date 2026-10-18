@@ -46,4 +46,4 @@ Bias was not reported. Equations are in `methodology.md` (section 6).
 - Shallow-water reflectance, suspended matter, phytoplankton, dissolved colored material, atmospheric-correction residuals and land adjacency can influence spectral signals.
 - A relationship fitted to the same data used to develop it is not, by itself, independent validation, and the sample (n = 24) is small.
 - No predictive model or validated quantitative concentration-retrieval product is claimed here.
-- The thesis text calls the NDTI–turbidity relation "robust" and NDTI a "reliable estimator". The reported R² does not support that wording, and it is not repeated here.
+- The thesis text calls the NDTI–turbidity relation "robust" and NDTI a "reliable estimator". While the low R² value for NDCI indicates that it does not support precise quantitative estimation of chlorophyll-a, the index remains a viable tool for qualitative analysis, effectively highlighting relative spatial patterns and trends across the bay.
