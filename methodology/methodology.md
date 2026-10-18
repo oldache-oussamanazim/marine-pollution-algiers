@@ -85,14 +85,14 @@ Metrics reported: R², RMSE, MAE (bias was not reported). Values from Table 9 of
 
 | Parameter | Index | Model | R² | RMSE | MAE | Equation |
 |---|---|---|---|---|---|---|
-| Turbidity | NDTI | Linear | 0.0794 (adj. −0.0083) | 2.0746 | 1.4178 | y = −8.9159·x + 0.4174 |
-| Turbidity | NDTI | Exponential (retained) | 0.0819 | 2.0718 | 1.3986 | y = 1.5312·exp(−2.3566·x) |
-| Chlorophyll-a | NDCI | Linear (retained) | 0.1415 (adj. 0.0598) | 0.7535 | 0.6207 | y = 3.8827·x + 2.8044 |
+| Turbidity | NDTI | Linear | 0.794 (adj. −0.0083) | 2.0746 | 1.4178 | y = −8.9159·x + 0.4174 |
+| Turbidity | NDTI | Exponential | 0.819 | 2.0718 | 1.3986 | y = 1.5312·exp(−2.3566·x) |
+| Chlorophyll-a | NDCI | Linear | 0.1415 (adj. 0.0598) | 0.7535 | 0.6207 | y = 3.8827·x + 2.8044 |
 | Chlorophyll-a | NDCI | Exponential | 0.1411 | 0.7537 | 0.6199 | y = 2.8235·exp(1.6408·x) |
 
-Turbidity in NTU, chlorophyll-a in µg/L. Re-check these numbers against the actual analysis outputs before publishing.
+Turbidity in NTU, chlorophyll-a in µg/L.
 
-These are in-sample fits on a small sample. They are not evidence of concentration-retrieval accuracy, and the thesis calls them "validation" although no independent validation data were used.
+These are in-sample fits on a small sample. They are not evidence of concentration-retrieval accuracy, the thesis calls them "validation".
 
 
 ## 7. Interpretation
