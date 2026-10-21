@@ -47,9 +47,8 @@ The project investigates the following indices or index families:
 
 - **Google Earth Engine:** satellite-image filtering, compositing, index processing and raster export.
 - **Sentinel-2:** satellite imagery used in the project.
-- **ESA SNAP and ACOLITE:** additional satellite-image processing tools used in the wider research workflow, where applicable.
+- **QGis:** Used for geospatial data visualization, final map design and cartography, custom raster calculations, layer masking, and spatial overlay with in situ sampling station coordinates.
 
-The input products, atmospheric-correction methods, cloud masks, date ranges and export settings depend on the specific workflow and should be documented in each script.
 
 ## 5. Usage
 
