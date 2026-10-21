@@ -47,7 +47,7 @@ The project investigates the following indices or index families:
 
 - **Google Earth Engine:** satellite-image filtering, compositing, index processing and raster export.
 - **Sentinel-2:** satellite imagery used in the project.
-- **QGis:** Used for geospatial data visualization, final map design and cartography, custom raster calculations, layer masking, and spatial overlay with in situ sampling station coordinates.
+- **QGis:** Geospatial data visualization, final map design and cartography, custom raster calculations, layer masking, and spatial overlay with in situ sampling station coordinates.
 
 
 ## 5. Usage
